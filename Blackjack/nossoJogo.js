@@ -13,9 +13,9 @@
 
 console.clear()
 
-const isIniciarRodada= confirm("Quer iniciar uma nova rodada?")
+const isJogoAtivo= confirm("Quer iniciar uma nova rodada?")
 
-if(isIniciarRodada){
+if(isJogoAtivo){
    //1) sortear as cartas para jogador e computador (2 para cada)
    //2) comprar valores
    //3) console log de vencedor ou empate
